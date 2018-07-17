@@ -1,0 +1,33 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "compile": "elm-make src/Main.elm --output static/js/elm.js",
+    "watch": "elm-live src/Main.elm --output static/js/elm.js --pushstate --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+  }
+}
